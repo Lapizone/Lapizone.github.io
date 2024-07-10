@@ -7,6 +7,7 @@
     <title>About Us - Starbucks PH</title>
 
     <link rel="stylesheet" href="./css/style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -15,11 +16,14 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
+     
   <body>
-    <header class="container header">
+     <header class="container header">
       <nav class="nav">
-        <div class="logo">
+                <div class="logo">
               <div class="buck">
                
               <img
@@ -35,6 +39,10 @@
         </div>
 
         <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
           <ul class="nav_menu_list">
             <li class="nav_menu_item">
               <a href="index.html" class="nav_menu_link">Home</a>
@@ -54,14 +62,14 @@
       </nav>
     </header>
 
-
     <div class="container text-center">
       <section class="wrapper">
         <div class="container">
           <div class="mx-auto">
             
           <div class="mx-auto">
-            <div class="">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+              
               <h1 class="main-heading">About Starbucks PH</h1>
               <h5><b>The Starbucks Story</b></h5>
               <img
